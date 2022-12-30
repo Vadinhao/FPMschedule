@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!-- Enter url, username and password from your db -->
+<Context>
+    <Resource
+            name="jdbc/FMPSchedule"
+            auth="Container"
+            type="javax.sql.DataSource"
+            maxActive="100"
+            maxIdle="30"
+            maxWait="10000"
+            driverClassName="com.mysql.jdbc.Driver"
+            url=""
+            username=""
+            password=""
+    />
+</Context>
